@@ -1,0 +1,21 @@
+footer {
+  background-color: #9c93c2; /* Couleur de fond */
+  color: #fff; /* Couleur du texte */
+  text-align: center; /* Centrer le texte */
+  padding: 20px; /* Espacement interne */
+  position: relative; /* Position relative pour éviter les problèmes de superposition */
+  bottom: 0; /* Coller le footer en bas */
+  width: 100%; /* Largeur complète */
+  font-size: 14px; /* Taille de police */
+}
+
+footer address {
+  font-style: normal; /* Style normal pour l'adresse */
+  margin: 10px 0; /* Marges pour l'adresse */
+}
+
+footer small {
+  display: block; /* Afficher en bloc pour forcer une nouvelle ligne */
+  margin-top: 10px; /* Marge en haut */
+  font-size: 12px; /* Taille de police réduite */
+}

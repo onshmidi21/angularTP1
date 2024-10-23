@@ -1,0 +1,49 @@
+<!-- src/app/home/home.component.html -->
+<header>
+  <app-header></app-header>
+</header>
+
+<div class="container">
+  <aside id="leftmenu">
+    <img src="../images/logo.jpeg" width="100" />
+    <header>
+      <h4>Explorez nos cakes</h4>
+    </header>
+    <ul>
+      <li><a href="/tousdetails">Tous</a></li>
+      <li><a href="/cheesecake">Cheese cakes</a></li>
+      <li><a href="/pies">Tartes</a></li>
+      <li><a href="#promos">Promotions</a></li>
+    </ul>
+  </aside>
+
+  <figure>
+    <img src="../images/cakes.jpeg" width="100" alt="La vitrine de notre boutique" />
+    <figcaption>Vitrine de la boutique Cake's shop</figcaption>
+  </figure>
+
+  <main id="main">
+    <button (click)="save()">J'aime</button>
+    <span id="favorite">{{ favoriteMessage }}</span> <!-- Affichage du message de remerciement -->
+    <article>
+      <header>
+        <h1>Bienvenue à notre boutique !</h1>
+      </header>
+      <h2>Notre histoire</h2>
+      <p>
+        Pendant de nombreuses années, Cake Shop a préparé les gâteaux les plus délicieux chez eux en Tunisie. ...
+      </p>
+      <hr>
+      <section id="promos">
+        <h3>Nos promotions hebdomadaire</h3>
+        <h4>Cheese cake</h4>
+        0dt - 4 personnes<br />
+        <img src="../images/cheesecake.jpg" width="500" alt="Cheesecake avec caramel" height="300" />
+      </section>
+    </article>
+  </main>
+</div>
+
+<footer>
+  <app-footer></app-footer>
+</footer>

@@ -1,0 +1,41 @@
+#mainheader {
+  background-color: #9c93c2;
+}
+
+
+/* Style pour la navigation */
+nav {
+  display: flex; /* Utiliser flexbox pour l'alignement */
+  align-items: center; /* Centrer les éléments verticalement */
+}
+
+/* Style pour la liste non ordonnée */
+nav ul {
+  list-style: none; /* Enlever les puces de la liste */
+  margin: 0; /* Enlever la marge par défaut */
+  padding: 0; /* Enlever le padding par défaut */
+  display: flex; /* Utiliser flexbox pour aligner les éléments */
+}
+
+/* Style pour les éléments de la liste */
+nav li {
+  margin-right: 20px; /* Espace entre les éléments */
+}
+
+/* Style pour les liens */
+nav a {
+  text-decoration: none; /* Enlever le soulignement */
+  color: #333; /* Couleur du texte */
+  font-weight: bold; /* Texte en gras */
+  transition: color 0.3s; /* Transition pour l'effet au survol */
+}
+
+/* Effet au survol des liens */
+nav a:hover {
+  color: #ff6347; /* Changer la couleur au survol */
+}
+
+/* Style pour l'image du logo */
+nav img {
+  margin-right: 20px; /* Espace entre l'image et le premier lien */
+}
